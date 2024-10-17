@@ -139,7 +139,7 @@ body {
   max-height: 100%;
   display: grid;
   grid-template-columns: 50% 1fr;
-  gap: 8.5rem;
+  gap: 5rem;
 }
 
 .infos {
@@ -147,7 +147,7 @@ body {
   display: grid;
   height: min-content;
   gap: 1.5rem;
-  width: 85%;
+  width: 90%;
 }
 
 .infos .title {

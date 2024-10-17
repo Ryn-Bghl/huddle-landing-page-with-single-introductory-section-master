@@ -97,3 +97,7 @@ h6 {
   --fw-regular: 400;
   --fw-medium: 600;
 }
+
+body {
+  background: image('./images/bg-desktop.svg');
+}

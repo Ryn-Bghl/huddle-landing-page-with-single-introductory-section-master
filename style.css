@@ -101,14 +101,12 @@ h6 {
 /* OVERALL STYLE */
 
 body {
-  position: relative;
   background-image: url('./images/bg-desktop.svg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100%;
+  background-size: contain;
   height: 100vh;
   background-color: var(--clr-violet);
-  padding: 4rem;
+  padding: 4em 6em 2em 6em;
 }
 
 /* HEADER */
@@ -127,6 +125,11 @@ body {
 
 /* MAIN CONTAINTER */
 
+.mockups img {
+  width: 100%;
+  max-height: min-content;
+}
+
 .main {
   position: relative;
   top: 50%;
@@ -135,23 +138,21 @@ body {
   max-width: 100%;
   max-height: 100%;
   display: grid;
-  grid-template-columns: 60% 40%;
-}
-
-.mockups img {
-  width: 80%;
-  height: 100%;
+  grid-template-columns: 50% 1fr;
+  gap: 8.5rem;
 }
 
 .infos {
+  margin-top: 3.2rem;
   display: grid;
   height: min-content;
   gap: 1.5rem;
+  width: 85%;
 }
 
 .infos .title {
   font-family: var(--ff-heading);
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: var(--fw-medium);
   color: white;
 }
@@ -159,19 +160,20 @@ body {
 .infos p {
   color: white;
   font-family: var(--ff-body);
-
+  font-weight: normal;
+  font-size: 1vw;
 }
 
 input[value="Register"] {
   background-color: var(--clr-soft-magenta);
   font-family: var(--ff-body);
   border: none;
-  border-radius: 2rem;
+  border-radius: 3rem;
   color: var(--clr-violet);
   background-color: #fff;
-  padding: 10px 50px;
-  font-size: var(--fs-medium);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 15px 75px;
+  font-size: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
   width: min-content;
 }
 
@@ -179,8 +181,8 @@ input[value="Register"] {
 
 footer {
   position: absolute;
-  bottom: 2rem;
-  right: 5rem;
+  bottom: 3rem;
+  right: 6rem;
   color: white;
   text-align: center;
   display: flex;

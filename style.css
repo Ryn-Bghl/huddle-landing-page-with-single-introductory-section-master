@@ -177,6 +177,12 @@ input[value="Register"] {
   width: min-content;
 }
 
+input[value="Register"]:hover {
+  background-color: var(--clr-soft-magenta);
+  color: white;
+  cursor: pointer;
+}
+
 /* FOOTER */
 
 footer {

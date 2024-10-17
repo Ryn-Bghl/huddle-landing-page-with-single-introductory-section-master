@@ -99,5 +99,5 @@ h6 {
 }
 
 body {
-  background: image('./images/bg-desktop.svg');
+  background-image: url('./images/bg-desktop.svg');
 }

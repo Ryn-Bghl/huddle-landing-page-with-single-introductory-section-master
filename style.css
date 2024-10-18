@@ -201,3 +201,44 @@ footer img {
   padding: 10px;
   height: 50px;
 }
+
+@media screen and (max-width: 44rem) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+  }
+
+  head img {
+    max-width: 12rem;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infos {
+    align-items: center;
+  }
+
+  .infos h1 {
+    font-style: 2.4rem;
+    line-height: 3.6rem;
+    margin-bottom: 1.6rem;
+    text-align: center;
+  }
+
+  .infos p {
+    font-style: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+
+  input[value="Register"] {
+    font-style: 1.2rem;
+    line-height: 1.8rem;
+    padding: 1rem;
+  }
+
+
+
+}

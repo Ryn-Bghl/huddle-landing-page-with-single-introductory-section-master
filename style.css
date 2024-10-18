@@ -212,10 +212,15 @@ footer img {
   }
 
   .mockups img {
-    width: 100vw;
+    width: 100vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .main {
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     gap: 4rem;
@@ -223,14 +228,14 @@ footer img {
 
   .infos {
     display: grid;
-    gap: 6vw;
+    gap: 3vw;
     text-align: center;
     place-items: center;
     color: var(--clr-white);
   }
 
   .infos .title {
-    margin-top: -15vw;
+    margin-top: -25vw;
     font-size: 7vw;
     font-family: "Open Sans", sans-serif;
   }

@@ -251,6 +251,7 @@ footer img {
     border-radius: 3rem;
     color: var(--clr-violet);
     background-color: var(--clr-white);
+    margin-top: 5vw;
     padding: 3vw 20vw;
     font-size: 3.25vw;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.250);

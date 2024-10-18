@@ -146,11 +146,11 @@ header img {
   font-family: var(--ff-heading);
   font-size: 2.75vw;
   font-weight: var(--fw-medium);
-  color: white;
+  color: rgba(255, 255, 255, 0.850);
 }
 
 .infos p {
-  color: white;
+  color: rgba(255, 255, 255, 0.850);
   font-family: var(--ff-body);
   font-weight: normal;
   font-size: 1.25vw;
@@ -162,7 +162,7 @@ input[value="Register"] {
   border: none;
   border-radius: 3rem;
   color: var(--clr-violet);
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.850);
   padding: 0.8vw 4vw;
   font-size: 1.25vw;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -171,7 +171,7 @@ input[value="Register"] {
 
 input[value="Register"]:hover {
   background-color: var(--clr-soft-magenta);
-  color: white;
+  color: rgba(255, 255, 255, 0.850);
   cursor: pointer;
 }
 
@@ -181,14 +181,14 @@ footer {
   position: absolute;
   bottom: 3rem;
   right: 6rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.850);
   text-align: center;
   display: flex;
   gap: 1rem;
 }
 
 footer img {
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.850);
   border-radius: 50%;
   padding: 0.5vw;
   height: 2.75vw;

@@ -220,7 +220,6 @@ footer img {
   }
 
   .main {
-    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     gap: 4rem;
@@ -272,7 +271,7 @@ footer img {
     gap: 0.75rem;
     position: absolute;
     bottom: 0;
-    margin-bottom: 9vw;
+    margin-bottom: 3vw;
     width: 100vw;
     right: 1vw;
   }

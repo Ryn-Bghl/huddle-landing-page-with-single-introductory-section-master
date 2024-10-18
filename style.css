@@ -77,6 +77,9 @@ h6 {
   --clr-violet: hsl(257, 40%, 49%);
   --clr-soft-magenta: hsl(300, 69%, 71%);
 
+  /* Secondary */
+  --clr-white: rgba(255, 255, 255, 0.850);
+
   /* Font size */
   /* --fs-small: 12px;
   --fs-base: 14px;
@@ -100,25 +103,25 @@ h6 {
 
 /* OVERALL STYLE */
 
-body {
+/* body {
   background-image: url('./images/bg-desktop.svg');
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
   background-color: var(--clr-violet);
   padding: 3em 5em 2em 5em;
-}
+} */
 
 /* HEADER */
 
-header img {
+/* header img {
   padding: 0.2vw;
   height: 4vw;
-}
+} */
 
 /* MAIN CONTAINTER */
 
-.mockups img {
+/* .mockups img {
   width: 50vw;
 }
 
@@ -173,11 +176,11 @@ input[value="Register"]:hover {
   background-color: var(--clr-soft-magenta);
   color: rgba(255, 255, 255, 0.850);
   cursor: pointer;
-}
+} */
 
 /* FOOTER */
 
-footer {
+/* footer {
   position: absolute;
   bottom: 3rem;
   right: 6rem;
@@ -192,8 +195,86 @@ footer img {
   border-radius: 50%;
   padding: 0.5vw;
   height: 2.75vw;
-}
+} */
 
 @media screen and (max-width: 44rem) {
-  
+  body {
+    background-image: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-color: var(--clr-violet);
+    padding: 2em 2.5em 2em 2.5em;
+  }
+
+  header img {
+    height: 9vw;
+  }
+
+  .mockups img {
+    margin-top: 4rem;
+    width: 100vw;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .infos {
+    display: grid;
+    gap: 5vw;
+    text-align: center;
+    place-items: center;
+    color: var(--clr-white);
+  }
+
+  .infos h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 7vw;
+  }
+
+  .infos p {
+    font-family: "Poppins", sans-serif;
+    font-size: 3.95vw;
+  }
+
+  input[value="Register"] {
+    background-color: var(--clr-soft-magenta);
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 3rem;
+    color: var(--clr-violet);
+    background-color: var(--clr-white);
+    padding: 3vw 20vw;
+    font-size: 3.25vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: min-content;
+  }
+
+  input[value="Register"]:hover {
+    background-color: var(--clr-soft-magenta);
+    color: rgba(255, 255, 255, 0.850);
+    cursor: pointer;
+  }
+
+  footer {
+    display: grid;
+    place-content: center;
+    grid-auto-flow: column;
+    color: rgba(255, 255, 255, 0.850);
+    gap: 0.75rem;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3rem;
+    width: 20rem;
+  }
+
+  footer img {
+    border: 1px solid rgba(255, 255, 255, 0.850);
+    border-radius: 50%;
+    padding: 2vw;
+    height: 8vw;
+  }
 }

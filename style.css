@@ -205,13 +205,13 @@ footer svg:hover {
 }
 
 @media screen and (max-width: 44rem) {
-  /* body {
+  body {
     background-image: url('./images/bg-mobile.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: var(--clr-violet);
-  } */
+  }
 
   header img {
     height: 9vw;

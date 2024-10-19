@@ -103,6 +103,10 @@ h6 {
 
 /* OVERALL STYLE */
 
+* {
+  border: solid 1px red;
+}
+
 body {
   background-image: url('./images/bg-desktop.svg');
   background-repeat: no-repeat;
@@ -110,6 +114,7 @@ body {
   height: 100vh;
   background-color: var(--clr-violet);
   padding: 3em 5em 2em 5em;
+  overflow: hidden;
 }
 
 /* HEADER */

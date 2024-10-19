@@ -60,6 +60,7 @@ h6 {
   font-size: 1rem;
 }
 
+
 /*
     8. Create a root stacking context
   */
@@ -104,7 +105,11 @@ h6 {
 /* OVERALL STYLE */
 
 * {
+<<<<<<< HEAD
   border: solid 1px red;
+=======
+  border: solid 2px red;
+>>>>>>> f04cf1471ea32faa00bdc6c147bd9ef02ee1d93f
 }
 
 body {
@@ -215,7 +220,7 @@ footer svg:hover {
     background-size: contain;
     height: 100vh;
     background-color: var(--clr-violet);
-    padding: 2em 2.5em 0em 2.5em;
+    /*padding: 2em 2.5em 0em 2.5em;*/
   }
 
   header img {

@@ -115,7 +115,7 @@ body {
   height: 100vh;
   background-color: var(--clr-violet);
   padding: 3em 5em 2em 5em;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* HEADER */

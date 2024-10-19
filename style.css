@@ -181,7 +181,7 @@ input[value="Register"]:hover {
 /* FOOTER */
 
 footer {
-  position: absolute;
+  // position: absolute;
   bottom: 3rem;
   right: 6rem;
   color: rgba(255, 255, 255, 0.850);

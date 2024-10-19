@@ -209,8 +209,8 @@ footer svg:hover {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
-    background-color: var(--clr-violet);
-    padding: 2em 2.5em 0em 2.5em;
+  //  background-color: var(--clr-violet);
+  //  padding: 2em 2.5em 0em 2.5em;
   }
 
   header img {

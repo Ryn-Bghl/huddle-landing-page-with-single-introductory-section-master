@@ -209,7 +209,7 @@ footer svg:hover {
     background-image: url('./images/bg-mobile.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    /* height: 1fr; */
+    min-height: 100vh;
     background-color: var(--clr-violet);
   }
 

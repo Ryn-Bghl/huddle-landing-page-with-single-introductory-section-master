@@ -104,23 +104,14 @@ h6 {
 
 /* OVERALL STYLE */
 
-body {
-  border: solid 2px red;
-  border-bottom: 1px solid #eee;
-  border-top: 1px solid #000;
-  border-left: 1px solid purple;
-  border-right: 1px solid olivedrab;
-}
-
-body {
+/* body {
   background-image: url('./images/bg-desktop.svg');
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
   background-color: var(--clr-violet);
   padding: 3em 5em 2em 5em;
-  /* overflow: hidden; */
-}
+} */
 
 /* HEADER */
 

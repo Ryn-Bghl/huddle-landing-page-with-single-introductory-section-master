@@ -206,7 +206,7 @@ footer svg:hover {
 @media screen and (max-width: 44rem) {
   body {
     background-image: url('./images/bg-mobile.svg');
-    /* background-size: min-content; */
+    background-size: cover;
   }
 
   header img {

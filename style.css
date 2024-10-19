@@ -102,55 +102,6 @@ h6 {
   --fw-medium: 600;
 }
 
-/* Ensure images are responsive */
-
-img {
-
-  max-width: 100%;
-  /* Prevents images from exceeding their container */
-
-  height: auto;
-  /* Maintains aspect ratio */
-
-}
-
-
-/* Flexbox example */
-
-.container {
-
-  display: flex;
-
-  flex-wrap: wrap;
-  /* Allows items to wrap */
-
-}
-
-
-/* Grid layout example */
-
-.grid {
-
-  display: grid;
-
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  /* Responsive grid */
-
-}
-
-
-/* Prevent long text overflow */
-
-p,
-h1,
-h2,
-h3 {
-
-  overflow-wrap: break-word;
-  /* Allows long text to break */
-
-}
-
 /* OVERALL STYLE */
 
 body {

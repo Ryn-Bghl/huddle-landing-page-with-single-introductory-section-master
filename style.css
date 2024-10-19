@@ -190,11 +190,17 @@ footer {
   gap: 1rem;
 }
 
-footer img {
+footer svg {
   border: 1px solid rgba(255, 255, 255, 0.850);
   border-radius: 50%;
   padding: 0.5vw;
   height: 2.75vw;
+  width: 2.75vw;
+}
+
+footer svg:hover {
+  fill: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
 }
 
 @media screen and (max-width: 44rem) {
@@ -277,10 +283,11 @@ footer img {
     right: 1vw;
   }
 
-  footer img {
+  footer svg {
     border: 1px solid rgba(255, 255, 255, 0.850);
     border-radius: 50%;
     padding: 2vw;
     height: 8vw;
+    width: 8vw;
   }
 }

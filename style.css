@@ -108,7 +108,7 @@ body {
   background-image: url('./images/bg-desktop.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--clr-violet);
   padding: 3em 5em 2em 5em;
 }

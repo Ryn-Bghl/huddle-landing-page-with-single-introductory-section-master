@@ -181,7 +181,7 @@ input[value="Register"]:hover {
 /* FOOTER */
 
 footer {
-  /*position: absolute;*/
+  position: absolute;
   bottom: 3rem;
   right: 6rem;
   color: rgba(255, 255, 255, 0.850);
@@ -276,7 +276,7 @@ footer svg:hover {
     grid-auto-flow: column;
     color: rgba(255, 255, 255, 0.850);
     gap: 0.75rem;
-    /*position: absolute;*/
+    position: absolute;
     bottom: 0;
     padding-bottom: 9vw;
     width: 100vw;

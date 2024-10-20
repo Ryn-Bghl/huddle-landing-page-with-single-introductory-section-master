@@ -114,6 +114,10 @@ body {
 
 /* HEADER */
 
+header {
+  padding-bottom: 4rem;
+}
+
 header img {
   padding: 0.2vw;
   height: 4vw;
